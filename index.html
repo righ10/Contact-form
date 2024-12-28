@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Contact form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="contact">
+        <h2>Contact Us</h2>
+      </div>
+      <form action="/" id="form">
+      <div class="name">
+        <div class="first">
+          <h5>First Name *</h5>
+          <input type="text" name="fname" id="fname">
+          
+          <span id="fname-error"></span>
+        </div>
+        <div class="last">
+          <h5>Last Name</h5>
+          <input type="text" name="lname" id="lname">
+        
+          <span id="lname-error"></span>
+
+        </div>
+      </div>
+
+      <div class="emailAdd">
+        <h5>Email Address</h5>
+        <input type="email" name="email" id="email">
+      
+        <span id="email-error"></span>
+
+      </div>
+
+      <div class="query">
+        <h5>Query Type</h5>
+        <div class="queryType ">
+          <div class="req ">
+            <input type="radio"  id="general" name="frm">General Request
+            <!--<label for="general">General Type</label>-->
+          </div>
+
+          <div class="req">
+            <input type="radio" id="support" name="frm">Support request 
+            <!--<label for="support">Support Request</label>-->
+          </div>
+        </div>
+
+        <span id="query-error"></span>
+      </div>
+
+      <div class="message">
+        <h5>Message</h5>
+        <textarea name="message" id="msg" cols="52" rows="10"></textarea>
+        <!--<input type="text" name="message" id="msg">-->
+      
+        <span id="message-error"></span>
+      
+      </div>
+
+
+      <div class="consentBox">
+        <div class="inputBox">
+        <input type="checkbox" name="consent" id="consent">
+        <h5>I consent to being contacted by the team </h5>
+
+        </div>
+        <div class="error">
+        <span id="consent-error"></span>
+        </div>
+      </div>
+
+      <div class="submitEl">
+      
+        <button type="submit" id="submit">SUBMIT</button>
+
+      </div>
+
+      <div id="success">
+        <div class="sent">
+          <img class="check" src="./assets/images/icon-success-check.svg" alt="check">
+          <h5>Message Sent!</h5>
+        </div>
+
+        <p>Thanks for completing the form. We'll be in touch soon!</p>
+
+      </div>
+      </form>
+    </div>
+  </main>
+  <script src="./index.js"></script>
+
+  
+
+  
+
+  
+
+  
+  <!--Please enter a valid email address
+  This field is required
+
+  
+  
+  
+  Please select a query type
+
+  Message
+  This field is required
+
+  To submit this form, please consent to being contacted
+
+  Submit
+
+  
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+</html>
