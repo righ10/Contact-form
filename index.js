@@ -40,7 +40,7 @@ if(last.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    last.style.border="1px solid var(--Grey500-medium)"
+    last.style.border="1px solid hsl(186, 15%, 59%)"
 )
 
 if(email.value===""){
@@ -49,21 +49,10 @@ if(email.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    email.style.border="1px solid var(--Grey500-medium)"
+    email.style.border="1px solid hsl(186, 15%, 59%)"
 )
 
-/*const request= document.querySelectorAll('.req')
 
-var checked =document.querySelector('input[type="radio"]:checked');
-console.log(checked)
-if(checked){
-    queryError.innerHTML = ""
-}else{
-    queryError.innerHTML = "Please Select a Query Type";
-    
-    border
-    hasError=true
-}*/
     var req= document.querySelectorAll('.req')
     var radio = document.getElementById("general")
     var radio2 = document.getElementById("support")
@@ -73,7 +62,7 @@ if(checked){
             queryError.innerHTML = "Please Select a Query Type";
             hasError = true
         }else{
-            req[i].style.border = "1px solid var(--Grey500-medium)"
+            req[i].style.border = "1px solid hsl(186, 15%, 59%)"
         }
     }
 
@@ -92,7 +81,7 @@ if(message.value===""){
     hasError= true
 }else(
     messageError.innerHTML= ""
-    message.style.border="1px solid var(--Grey500-medium)"
+    message.style.border="1px solid hsl(186, 15%, 59%)"
 )
 
 var consentBox = document.querySelector('input[type="checkbox"]:checked');
