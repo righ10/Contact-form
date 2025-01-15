@@ -31,7 +31,7 @@ if(first.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    first.style.border="1px solid hsl(186, 15%, 59%)"
+
 )
 
 if(last.value===""){
@@ -40,7 +40,7 @@ if(last.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    last.style.border="1px solid hsl(186, 15%, 59%)"
+
 )
 
 if(email.value===""){
@@ -49,7 +49,7 @@ if(email.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    email.style.border="1px solid hsl(186, 15%, 59%)"
+
 )
 
 
@@ -62,7 +62,7 @@ if(email.value===""){
             queryError.innerHTML = "Please Select a Query Type";
             hasError = true
         }else{
-            req[i].style.border = "1px solid hsl(186, 15%, 59%)"
+            req[i].style.border = ""
         }
     }
 
@@ -81,7 +81,7 @@ if(message.value===""){
     hasError= true
 }else(
     messageError.innerHTML= ""
-    message.style.border="1px solid hsl(186, 15%, 59%)"
+    
 )
 
 var consentBox = document.querySelector('input[type="checkbox"]:checked');
