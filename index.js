@@ -31,7 +31,7 @@ if(first.value===""){
     hasError= true
 }else(
     fnameError.innerHTML= ""
-    first.style.border="1px solid hsl(186, 15%, 59%)"
+    
 )
 
 if(last.value===""){
